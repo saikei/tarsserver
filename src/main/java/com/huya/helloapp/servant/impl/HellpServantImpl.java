@@ -12,4 +12,6 @@ public class HellpServantImpl implements HelloServant {
     public String hello() {
         return "hello world";
     }
+
+    public String sorry(){return "sorry world";}
 }

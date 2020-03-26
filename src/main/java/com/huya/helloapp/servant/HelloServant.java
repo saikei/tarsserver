@@ -9,4 +9,6 @@ import com.huya.taf.protocol.annotation.Servant;
 @Servant
 public interface HelloServant {
     String hello();
+
+    String sorry();
 }

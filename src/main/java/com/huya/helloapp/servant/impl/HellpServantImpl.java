@@ -1,13 +1,14 @@
 package com.huya.helloapp.servant.impl;
 
-import com.huya.taf.spring.annotation.TafServant;
+
 import com.huya.helloapp.servant.HelloServant;
+import com.qq.tars.spring.annotation.TarsServant;
 
 /**
  * @author saikei
  * @email lishiji@huya.com
  */
-@TafServant("HelloObj")
+@TarsServant("HelloObj")
 public class HellpServantImpl implements HelloServant {
     public String hello() {
         return "hello world";
